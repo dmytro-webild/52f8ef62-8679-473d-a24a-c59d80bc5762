@@ -60,7 +60,7 @@ export default function LandingPage() {
       background={{
         variant: "plain"}}
       title="Красота начинается с кончиков пальцев"
-      description='Маникюрный салон "Красивая гора" предлагает безупречный уход за вашими руками и ногами. Насладитесь расслабляющей атмосферой и получите идеальный маникюр, который подчеркнет вашу индивидуальность.'
+      description="Маникюрный салон \"Красивая гора\" предлагает безупречный уход за вашими руками и ногами. Насладитесь расслабляющей атмосферой и получите идеальный маникюр, который подчеркнет вашу индивидуальность."
       tagAnimation="none"
       buttons={[
         {
@@ -148,27 +148,27 @@ export default function LandingPage() {
         {
           id: "basic-manicure",          name: "Маникюр \"Базовый\"",          price: "1000 ₽",          buttons: [
             {
-              text: "Записаться"},
+              text: "Записаться"}
           ],
           features: [
-            "Обработка кутикулы",            "Придание формы ногтям",            "Массаж рук",            "Покрытие обычным лаком"],
+            "Обработка кутикулы",            "Придание формы ногтям",            "Массаж рук",            "Покрытие обычным лаком"]
         },
         {
           id: "gel-manicure",          name: "Маникюр \"Гель-лак\"",          price: "1500 ₽",          buttons: [
             {
-              text: "Записаться"},
+              text: "Записаться"}
           ],
           features: [
-            "Обработка кутикулы",            "Придание формы ногтям",            "Покрытие гель-лаком",            "Легкий дизайн 2х ногтей"],
+            "Обработка кутикулы",            "Придание формы ногтям",            "Покрытие гель-лаком",            "Легкий дизайн 2х ногтей"]
         },
         {
           id: "spa-pedicure",          name: "Педикюр \"СПА\"",          price: "2000 ₽",          buttons: [
             {
-              text: "Записаться"},
+              text: "Записаться"}
           ],
           features: [
-            "СПА-ванночка для ног",            "Обработка стоп и ногтей",            "Пилинг и маска",            "Покрытие гель-лаком"],
-        },
+            "СПА-ванночка для ног",            "Обработка стоп и ногтей",            "Пилинг и маска",            "Покрытие гель-лаком"]
+        }
       ]}
       title="Прайс-лист"
       description="Выберите свой идеальный уход. Наши цены приятно удивят, а качество оставит довольными."
@@ -187,7 +187,7 @@ export default function LandingPage() {
         {
           id: "t2",          name: "Игорь Петров",          role: "Мастер педикюра и нейл-арта",          imageSrc: "http://img.b2bpic.net/free-photo/bearded-man-navy-t-shirt-using-smartphone-playing-games-looking-annoyed-excited-standing-pink-wall_141793-81965.jpg",          imageAlt: "Портрет Игоря Петрова"},
         {
-          id: "t3",          name: "Елена Соколова",          role: "Администратор",          imageSrc: "http://img.b2bpic.net/free-photo/young-beautiful-successful-businesswoman-smiling-speaking-phone-office_176420-968.jpg",          imageAlt: "Портрет Елены Соколовой"},
+          id: "t3",          name: "Елена Соколова",          role: "Администратор",          imageSrc: "http://img.b2bpic.net/free-photo/young-beautiful-successful-businesswoman-smiling-speaking-phone-office_176420-968.jpg",          imageAlt: "Портрет Елены Соколовой"}
       ]}
       title="Наша Команда"
       description="Познакомьтесь с талантливыми мастерами, которые воплощают ваши мечты о красивых ногтях."
@@ -197,7 +197,7 @@ export default function LandingPage() {
   <div id="testimonials" data-section="testimonials">
       <TestimonialCardFifteen
       useInvertedBackground={false}
-      testimonial='"Лучший салон в городе! Всегда выхожу с идеальным маникюром и прекрасным настроением. Мастера настоящие профессионалы своего дела, а атмосфера просто волшебная."'
+      testimonial="\"Лучший салон в городе! Всегда выхожу с идеальным маникюром и прекрасным настроением. Мастера настоящие профессионалы своего дела, а атмосфера просто волшебная.\""
       rating={5}
       author="Марина Иванова"
       avatars={[
@@ -210,7 +210,7 @@ export default function LandingPage() {
         {
           src: "http://img.b2bpic.net/free-photo/beauty-vlogger-adjusting-camera_23-2148916346.jpg",          alt: "Аватар Екатерины Новиковой"},
         {
-          src: "http://img.b2bpic.net/free-photo/young-woman-looking-smiling-grey-t-shirt-front-view_176474-16115.jpg",          alt: "Аватар Алексея Морозова"},
+          src: "http://img.b2bpic.net/free-photo/young-woman-looking-smiling-grey-t-shirt-front-view_176474-16115.jpg",          alt: "Аватар Алексея Морозова"}
       ]}
       ratingAnimation="slide-up"
       avatarsAnimation="blur-reveal"
@@ -227,7 +227,7 @@ export default function LandingPage() {
         {
           id: "faq2",          title: "Какие меры гигиены вы соблюдаете?",          content: "Мы строго соблюдаем все санитарные нормы. Инструменты проходят трехэтапную стерилизацию, используются одноразовые расходные материалы, рабочие поверхности дезинфицируются после каждого клиента."},
         {
-          id: "faq3",          title: "Сколько держится гель-лак?",          content: "В среднем, гель-лак держится 3-4 недели, при условии правильного нанесения и соблюдения рекомендаций по уходу. Срок носки также зависит от индивидуальных особенностей ногтей."},
+          id: "faq3",          title: "Сколько держится гель-лак?",          content: "В среднем, гель-лак держится 3-4 недели, при условии правильного нанесения и соблюдения рекомендаций по уходу. Срок носки также зависит от индивидуальных особенностей ногтей."}
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/still-life-tools-nail-art_23-2150321308.jpg"
       imageAlt="Стерильные инструменты для маникюра"
@@ -248,7 +248,7 @@ export default function LandingPage() {
         {
           text: "Позвонить нам",          href: "tel:+79991234567"},
         {
-          text: "Написать в WhatsApp",          href: "https://wa.me/79991234567"},
+          text: "Написать в WhatsApp",          href: "https://wa.me/79991234567"}
       ]}
     />
   </div>
@@ -260,13 +260,16 @@ export default function LandingPage() {
       socialLinks={[
         {
           icon: Instagram,
-          href: "#",          ariaLabel: "Instagram"},
+          href: "#",          ariaLabel: "Instagram"
+        },
         {
           icon: Facebook,
-          href: "#",          ariaLabel: "Facebook"},
+          href: "#",          ariaLabel: "Facebook"
+        },
         {
           icon: MessageSquare,
-          href: "#",          ariaLabel: "Whatsapp"},
+          href: "#",          ariaLabel: "Whatsapp"
+        }
       ]}
     />
   </div>
