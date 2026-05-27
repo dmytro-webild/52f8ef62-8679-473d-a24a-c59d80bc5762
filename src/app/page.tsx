@@ -146,8 +146,7 @@ export default function LandingPage() {
       useInvertedBackground={false}
       plans={[
         {
-          id: "basic-manicure",          name: 'Маникюр "Базовый"',
-          price: "1000 ₽",          buttons: [
+          id: "basic-manicure",          name: "Маникюр \"Базовый\"",          price: "1000 ₽",          buttons: [
             {
               text: "Записаться"},
           ],
