@@ -199,7 +199,7 @@ export default function LandingPage() {
   <div id="testimonials" data-section="testimonials">
       <TestimonialCardFifteen
       useInvertedBackground={false}
-      testimonial={`"Лучший салон в городе! Всегда выхожу с идеальным маникюром и прекрасным настроением. Мастера настоящие профессионалы своего дела, а атмосфера просто волшебная.`}"
+      testimonial="Лучший салон в городе! Всегда выхожу с идеальным маникюром и прекрасным настроением. Мастера настоящие профессионалы своего дела, а атмосфера просто волшебная."
       rating={5}
       author="Марина Иванова"
       avatars={[
